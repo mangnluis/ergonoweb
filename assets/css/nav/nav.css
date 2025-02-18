@@ -16,9 +16,9 @@
   
   .nav-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 200px;
     align-items: center;
-    padding: 0 20%;
     height: 100%;
   }
   
@@ -42,7 +42,7 @@
     z-index: 1001;
   }
   
-  .nav-links a:hover {
+  .nav-links a:not(:has(.nav-logo)):hover  {
     color: rgba(255, 255, 255, 0.7);  /* Effet hover plus subtil */
     transform: scale(1.05);  /* Léger zoom au survol */
   }
