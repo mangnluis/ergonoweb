@@ -3,7 +3,7 @@
 @import url('main/main.css');
 @import url('scroll/scroll.css');
 @import url('footer/footer.css');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
   scroll-behavior: smooth;
