@@ -1,0 +1,13 @@
+@import url('nav/nav.css');
+@import url('video/video.css');
+@import url('main/main.css');
+@import url('scroll/scroll.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

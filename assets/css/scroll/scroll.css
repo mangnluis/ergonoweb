@@ -1,0 +1,19 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);  /* Fond plus sombre */
+    backdrop-filter: blur(10px);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.6);  /* Curseur plus sombre */
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);  /* Bordure subtile */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.8);  /* Encore plus sombre au survol */
+    border: 1px solid rgba(255, 255, 255, 0.2);  /* Bordure plus visible au survol */
+  }

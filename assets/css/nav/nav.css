@@ -1,0 +1,49 @@
+.navbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);  /* Plus transparent */
+    backdrop-filter: blur(10px);  /* Effet flou */
+    padding: 0.5rem 0;
+    height: 40px;
+    z-index: 1000;
+    box-shadow: 0 2px 15px rgba(255, 255, 255, 0.1);  /* Ombre plus subtile */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);  /* Bordure subtile */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+    height: 100%;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: optimal, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 95px;
+    width: auto;
+    z-index: 1001;
+  }
+  
+  .nav-links a:hover {
+    color: rgba(255, 255, 255, 0.7);  /* Effet hover plus subtil */
+    transform: scale(1.05);  /* Léger zoom au survol */
+  }
+  
