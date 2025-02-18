@@ -1,0 +1,22 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);  /* Plus transparent */
+    backdrop-filter: blur(30px);  /* Effet flou */
+    height: auto;
+    z-index: 999;
+    box-shadow: 0 2px 15px rgba(255, 255, 255, 0.1);  /* Ombre plus subtile */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
