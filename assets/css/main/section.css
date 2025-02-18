@@ -22,3 +22,30 @@
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+
+  .card{
+    background-color: rgba(255, 255, 255, 0.1);  /* Plus transparent */
+    backdrop-filter: blur(30px);  /* Effet flou */
+    padding: 0.5rem 0;
+    height: auto;
+    z-index: 999;
+    box-shadow: 0 2px 15px rgba(255, 255, 255, 0.1);  /* Ombre plus subtile */
+    border-radius: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    font-size: 1.3rem;
+  }
+
+  .about{
+    margin: 2vw;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+  }
+
+  .why{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    font-family: "Roboto Condensed", serif;
+    font-size: 1.7rem;
+  }
