@@ -41,6 +41,7 @@
     margin: 2vw;
     font-family: "andada pro", serif;
     font-optical-sizing: auto;
+    text-align: center;
   }
 
   .why{
@@ -49,4 +50,5 @@
     margin: 2vw;
     font-family: "andada pro", serif;
     font-size: 1.7rem;
+    text-decoration: underline;
   }
